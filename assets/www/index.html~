@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="user-scalable=no, width=device-width" />
+        <script src="cordova-2.7.0.js"></script>
+	<script type="text/javascript" src="jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="android.js"></script>
+        <link rel="stylesheet" type="text/css"
+            href="android.css" media="only screen and (max-width: 600px)" />
+            
+            
+        <title>CUET</title>
+    </head>
+    <body>
+        <div id="header">
+
+            <h1><a href="./index.html">  CUET ADMISSION SYSTEM</a></h1>
+            <!--div onclick="toggleSpecific('nav');"> Info</div-->
+               <div id="nav">
+                    <ul>
+                                <li><a href="about.html">About CUET</a></li>
+                                <li><a href="department.html">Departments</a></li>
+                                <li><a href="admission.html">About admission</a></li>
+                    </ul>
+                </div>
+        </div>
+				      
+			
+			<div id="page">
+			
+			<li><a href="images/notice.jpg">Notice</a></li>
+			<li><a href="appform.html">Apply</a></li>
+              		
+                	
+                	</div>
+        </div>
+    </body>
+</html>

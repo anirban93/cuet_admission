@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <meta name="viewport" content="user-scalable=no, width=device-width" />
+        <script src="cordova-2.7.0.js"></script>
+	<script type="text/javascript" src="jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="android.js"></script>
+        <link rel="stylesheet" type="text/css"
+            href="android.css" media="only screen and (max-width: 600px)" />
+            
+            
+    </head>				
+				
+				
+		<body>
+		
+		<div id="header">
+     		    <h1><a href="./appform.html"> Application Form</a></h1>	
+     		    <div id="nav">
+		            <ul>
+		                        <li><a href="about.html">About CUET</a></li>
+		                        <li><a href="department.html">Departments</a></li>
+		                        <li><a href="admission.html">About admission</a></li>
+		            </ul>
+		    </div>	
+		</div>
+		
+				<form id="Frm" action="http://www.admissionprocess.dx.am/process.php" method="post">
+                		<!-- LET THE GAME BEGIN -->
+              			
+              			
+              			
+              			<!--div id="p1" onclick="toggleSpecific('part1','p1');"> 
+              		
+              			</div-->
+        			
+        			
+              			<div id="part1" style="background-color: rgba(0,0,0,.7); border-radius: 8px;">	
+              			
+              			</br>
+              			<h3> <b><font color="#CC9900"> Generel Information </font></b> </h3>	
+				</br>
+				Name :  <input type="text" name="sname" class="input" size="30"/> </br></br>
+				Father's Name :  <input type="text" name="sfname" class="input" size="30"/> </br></br>
+				Mother's Name :  <input type="text" name="smname" class="input" size="30"/></br></br>
+				Sex  : <input type="radio" name="sex" value="male">Male <input type="radio" name="sex" value="female">Female</br></br>
+
+				<tr>
+					<td align="left"><b>Date Of Birth </b></td>
+					<td><select name="btdate">  
+							<option value="dd">dd</option>
+							<option value="1">01</option>
+							<option value="2">02</option>
+							<option value="3">03</option>
+							<option value="4">04</option>
+							<option value="5">05</option>
+							<option value="6">06</option>
+							<option value="7">07</option>
+							<option value="8">08</option>
+							<option value="9">09</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+							<option value="26">26</option>
+							<option value="27">27</option>
+							<option value="28">28</option>
+							<option value="29">29</option>
+							<option value="30">30</option>
+							<option value="31">31</option>	
+						</select>
+						<select name="bmonth">
+							<option value="mm">mm</option>
+							<option value="1">Jan</option>
+							<option value="2">Feb</option>
+							<option value="3">Mar</option>
+							<option value="4">Apr</option>
+							<option value="5">May</option>
+							<option value="6">Jun</option>
+							<option value="7">Jul</option>
+							<option value="8">Aug</option>
+							<option value="9">Sep</option>
+							<option value="10">Oct</option>
+							<option value="11">Nov</option>
+							<option value="12">Dec</option>
+						</select>
+						<select name="byear">
+							<option value="yyyy">yyyy</option>
+							<option value="1993">1993</option>
+							<option value="1994">1994</option>
+							<option value="1995">1995</option>
+							<option value="1996">1996</option>
+							<option value="1997">1997</option>
+						</select>
+					</td>
+				</tr>
+				
+				</br></br>   Nationality : <input type="text" class="input" name="snation" size="30"/></br>
+				</div>
+				<div id="part2">
+				</div>
+				<div id="part3">
+				</div>
+				<div id="part4">
+				</div>
+				<div id="part5">
+				</div>
+
+                	</form>
+                	
+                	</body>
+                	</html>
